@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ysn.auto | Recambios de Automoción</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #c00000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1511919884226-fd3cad34687c') 
+                        no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .productos {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #c00000;
+        }
+
+        .card button {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            margin-top: 15px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+.contacto {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin: 40px auto;
+}
+
+.contacto a {
+    color: #d40000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
+    </style> 
+</head>
+
+<body>
+
+<header>
+    <h1>ysn.auto</h1>
+    <p>Especialistas en recambios y piezas de automoción</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Contacto</a>
+</nav>
+
+
+<section class="hero">
+    <h1>Potencia y Seguridad para tu Vehículo</h1>
+    <p>Ruedas, frenos, amortiguadores y más al mejor precio</p>
+</section>
+
+<section class="productos">
+    <h2>Nuestros Productos</h2>
+
+    <div class="grid">
+
+        <div class="card">
+<img src="images.jpg" style="width:100%;">
+            <h3>Ruedas</h3>
+            <p>Neumáticos de alta calidad para todo tipo de vehículos.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+<img src="descarga (2).jpg" style="width:100%;">
+            <h3>Frenos</h3>
+            <p>Pastillas y discos de freno para máxima seguridad.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+
+
+<img src="descarga.jpg" style="width:100%;">
+            <h3>Amortiguadores</h3>
+            <p>Mejora la estabilidad y el confort de tu coche.</p>
+            <button>Ver más</button>
+        </div>
+
+        <div class="card">
+<img src="descarga (1).jpg" style="width:100%;">
+            <h3>Rótulas de Dirección</h3>
+            <p>Precisión y control para el sistema de dirección.</p>
+            <button>Ver más</button>
+        </div>
+
+    </div>
+</section>
+<section class="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarnos a través de:</p>
+    <ul>
+        <li>Teléfono: <a href="tel:+34123456789">+34 123 456 789</a></li>
+        <li>Email: <a href="mailto:info@ysn.auto">info@ysn.auto</a></li>
+        <li>Dirección: Calle Ejemplo 123, Barcelona, España</li>
+    </ul>
+</section>
+<footer>
+    <p>© 2026 ysn.auto - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
